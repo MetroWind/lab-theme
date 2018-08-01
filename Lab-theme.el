@@ -102,6 +102,9 @@
    `(highlight ((t (:inverse-video nil :background ,color-ultralight))))
    `(hl-line ((t (:inverse-video nil :background ,color-ultralight))))
 
+   ;; Faces for specific prog modes
+   `(sh-heredoc ((t (:foreground nil :inherit font-lock-string-face))))
+
    ;; Dired
    `(dired-directory ((t (:foreground ,color-dark-blue))))
    `(dired-symlink ((t (:foreground ,color-dark-cyan))))

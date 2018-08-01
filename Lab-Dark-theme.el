@@ -82,7 +82,7 @@
    `(fringe ((t (:background ,color-bg))))
    `(minibuffer-prompt ((t (:slant italic :foreground ,color-bad))))
    `(font-lock-builtin-face ((t (:foreground ,color-mist))))
-   `(font-lock-comment-face ((t (:slant italic :foreground ,color-buddha))))
+   `(font-lock-comment-face ((t (:slant italic :foreground ,color-middle))))
    `(font-lock-constant-face ((t (:slant italic :foreground ,color-bad))))
    `(font-lock-function-name-face ((t (:foreground ,color-yellow))))
    `(font-lock-keyword-face ((t (:foreground ,color-mist :slant italic))))
@@ -105,6 +105,9 @@
                               :foreground ,color-bg))))
    `(highlight ((t (:inverse-video nil :background ,color-void))))
    `(hl-line ((t (:inverse-video nil :background ,color-void))))
+
+   ;; Faces for specific prog modes
+   `(sh-heredoc ((t (:foreground nil :inherit font-lock-string-face))))
 
    ;; Dired
    `(dired-directory ((t (:foreground ,color-blue))))
