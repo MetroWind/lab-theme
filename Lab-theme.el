@@ -163,6 +163,9 @@
    `(magit-diff-removed-highlight ((t (:inherit magit-diff-removed))))
    `(magit-diff-context ((t (:inherit diff-context))))
    `(magit-diff-context-highlight ((t (:inherit magit-diff-context))))
+   `(magit-popup-argument ((t (:inherit font-lock-function-name-face))))
+   `(magit-popup-disabled-argument ((t (:inherit font-lock-comment-face))))
+
 
    ;; Git-gutter-fringe
    `(git-gutter-fr:modified ((t (:foreground ,color-dark-purple))))
