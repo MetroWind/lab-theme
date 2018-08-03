@@ -263,6 +263,7 @@
    `(org-latex-and-related ((t (:foreground ,color-middle :italic t))))
    `(org-checkbox ((t (:weight normal :foreground ,color-bad))))
    `(org-verbatim ((t (:foreground ,color-middle))))
+   `(org-mode-line-clock ((t (:background nil))))
 
    ;; Message
    `(message-header-name ((t (:foreground ,color-bad))))
