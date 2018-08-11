@@ -99,7 +99,7 @@
    `(button ((t (:foreground ,color-yellow :underline t :background nil))))
    `(header-line ((t (:background ,color-void
                       :foreground ,color-fg))))
-   `(shadow ((t (:foreground ,color-void))))
+   `(shadow ((t (:foreground ,color-bad))))
    `(show-paren-match ((t (:background ,color-dark-green :foreground ,color-fg))))
    `(show-paren-mismatch ((t (:background ,color-dark-red
                               :foreground ,color-bg))))
