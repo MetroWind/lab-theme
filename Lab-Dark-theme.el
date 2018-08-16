@@ -270,6 +270,7 @@
    `(org-checkbox ((t (:weight normal :foreground ,color-bad))))
    `(org-verbatim ((t (:foreground ,color-middle))))
    `(org-mode-line-clock ((t (:background nil))))
+   `(org-document-title ((t (:weight normal :foreground nil))))
 
    ;; Message
    `(message-header-name ((t (:foreground ,color-bad))))
