@@ -298,6 +298,13 @@
    `(compilation-warning ((t (:foreground ,color-yellow))))
    ))
 
+(if (and (>= emacs-major-version 26) (equal window-system 'ns))
+    ;; Let Emacs use dark appearance
+    (let ((appearance-pair (assoc 'ns-appearance default-frame-alist)))
+      (if (null appearance-pair)
+          (add-to-list 'default-frame-alist '(ns-appearance . dark))
+        (setcdr (assoc 'ns-appearance default-frame-alist) 'dark))))
+
 (provide-theme 'Lab-Dark)
 
 ;; Local Variables:
