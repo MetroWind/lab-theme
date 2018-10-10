@@ -18,7 +18,7 @@
 ;;
 ;; A carefully constructed color theme for max labbiness! The name
 ;; comes from the fact that I acquired these colors by fiddling in the
-;; Lab color space.
+;; LAB color space.
 ;;
 ;; See https://github.com/MetroWind/lab-theme for installation and
 ;; more.
@@ -36,9 +36,9 @@ Argument STYLE can be either 'light or 'dark."
 
   (interactive)
   (cond ((equal style 'light)
-         (load-theme 'Lab t))
+         (load-theme 'lab-light t))
         ((equal style 'dark)
-         (load-theme 'Lab-Dark t))
+         (load-theme 'lab-dark t))
 
         (t (error (format "Unknown Lab theme style: %S" style)))))
 

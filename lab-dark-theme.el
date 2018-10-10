@@ -1,4 +1,4 @@
-;;; Lab-Dark-theme.el --- A custom theme carefully constructed in the LAB space
+;;; lab-dark-theme.el --- A custom theme carefully constructed in the LAB space
 
 ;; Copyright (C) 2010--2018 MetroWind.
 
@@ -25,8 +25,8 @@
 ;; it should be also provided in the dark version. Otherwise it could
 ;; be ugly when switching bwteen styles
 
-(deftheme Lab-Dark
-  "A custom theme carefully constructed in the LAB space")
+(deftheme lab-dark
+  "A custom theme carefully constructed in the LAB space (dark variant)")
 
 ;; Colors
 (let*
@@ -66,7 +66,7 @@
      (color-bg color-darkness))
 
   (custom-theme-set-faces
-   'Lab-Dark
+   'lab-dark
    `(default ((t (:background ,color-bg
                   :foreground ,color-fg))))
    `(cursor ((t (:background ,color-red
@@ -298,10 +298,10 @@
    `(compilation-warning ((t (:foreground ,color-yellow))))
    ))
 
-(provide-theme 'Lab-Dark)
+(provide-theme 'lab-dark)
 
 ;; Local Variables:
 ;; no-byte-compile: t
 ;; End:
 
-;;; Lab-Dark-theme.el ends here
+;;; lab-dark-theme.el ends here

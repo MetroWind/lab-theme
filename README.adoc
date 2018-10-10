@@ -4,10 +4,10 @@ MetroWind <chris.corsair@gmail.com>
 image::shot.png[,646]
 
 A carefully constructed color theme for max labbiness! The name comes
-from the fact that I acquired these colors by fiddling in the Lab
+from the fact that I acquired these colors by fiddling in the LAB
 color space.
 
 == Installation
 
-Copy `Lab-theme.el` and `Lab-Dark-theme.el` to somewhere in your
+Copy `lab-light-theme.el` and `lab-dark-theme.el` to somewhere in your
 `custom-theme-load-path`.
