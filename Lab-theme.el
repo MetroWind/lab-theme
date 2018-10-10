@@ -1,4 +1,4 @@
-;;; Lab-theme.el --- Custom face theme for Emacs
+;;; Lab-theme.el --- A custom theme carefully constructed in the LAB space
 
 ;; Copyright (C) 2010--2018 MetroWind.
 
@@ -26,7 +26,7 @@
 ;; be ugly when switching bwteen styles
 
 (deftheme Lab
-  "Inspired by the color scheme from flatuicolors.com.")
+  "A custom theme carefully constructed in the LAB space")
 
 ;; Colors
 (let*

@@ -1,4 +1,4 @@
-;;; lab-themes.el --- A carefully contructed custom theme
+;;; lab-themes.el --- A custom theme carefully constructed in the LAB space
 
 ;; Copyright (C) 2018 MetroWind.
 
