@@ -26,6 +26,8 @@
 ;;; Code:
 
 (defvar lab-themes-current-style nil)
+
+;;;###autoload
 (add-to-list 'custom-theme-load-path
              (file-name-directory load-file-name))
 
