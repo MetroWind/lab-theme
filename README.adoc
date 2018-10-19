@@ -9,5 +9,14 @@ color space.
 
 == Installation
 
-Copy `lab-light-theme.el` and `lab-dark-theme.el` to somewhere in your
-`custom-theme-load-path`.
+Install `lab-themes` from Melpa, and call `(lab-themes-load-style
+'light)` (or `'dark`) to activate the theme. The function
+`lab-themes-switch-style` can be used to toggle between light and dark
+variant.
+
+If you want to install manually, copy `lab-light-theme.el` and
+`lab-dark-theme.el` to somewhere in your `custom-theme-load-path`, and
+`(load-theme 'lab-light t)` (or `lab-dark`).
+
+The `other` directory contains the color setting for some other
+programs.
