@@ -1,6 +1,8 @@
 = Lab Theme for Emacs
 MetroWind <chris.corsair@gmail.com>
 
+image:https://melpa.org/packages/lab-themes-badge.svg[Badge]
+
 image::shot.png[,646]
 
 A carefully constructed color theme for max labbiness! The name comes
