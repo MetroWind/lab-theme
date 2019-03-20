@@ -296,6 +296,10 @@
    `(compilation-error ((t (:foreground ,color-red))))
    `(compilation-info ((t (:foreground ,color-green))))
    `(compilation-warning ((t (:foreground ,color-yellow))))
+
+   ;; Highlight-indent-guides
+   `(highlight-indent-guides-odd-face ((t (:background ,color-void))))
+   `(highlight-indent-guides-even-face ((t (:background nil))))
    ))
 
 (provide-theme 'lab-dark)

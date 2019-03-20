@@ -293,6 +293,10 @@
    `(compilation-error ((t (:foreground ,color-dark-red))))
    `(compilation-info ((t (:foreground ,color-dark-green))))
    `(compilation-warning ((t (:foreground ,color-dark-yellow))))
+
+   ;; Highlight-indent-guides
+   `(highlight-indent-guides-odd-face ((t (:background ,color-ultralight))))
+   `(highlight-indent-guides-even-face ((t (:background nil))))
    ))
 
 (provide-theme 'lab-light)
