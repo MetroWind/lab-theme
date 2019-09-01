@@ -1,0 +1,34 @@
+!! black dark/light
+*color0:                          #5a5e65
+*color8:                          #73777d
+
+!! red dark/light
+*color1:                          #d04245
+*color9:                          #ff7f79
+
+!! green dark/light
+*color2:                          #008c36
+*color10:                         #30c36e
+
+!! yellow dark/light
+*color3:                          #897500
+*color11:                         #c0a946
+
+!! blue dark/light
+*color4:                          #007bd9
+*color12:                         #69afff
+
+!! magenta dark/light
+*color5:                          #ba48b4
+*color13:                         #f083e7
+
+!! cyan dark/light
+*color6:                          #008fac
+*color14:                         #00c5e0
+
+!! white dark/light
+*color7:                          #dee2ea
+*color15:                         #eef0f3
+
+*.background:                     #eef0f3
+*.foreground:                     #5a5e65
