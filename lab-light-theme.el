@@ -101,6 +101,7 @@
                               :foreground ,color-bg))))
    `(highlight ((t (:inverse-video nil :background ,color-ultralight))))
    `(hl-line ((t (:inverse-video nil :background ,color-ultralight))))
+   `(widget-field ((t (:background ,color-bad))))
 
    ;; Faces for specific prog modes
    `(sh-heredoc ((t (:foreground nil :inherit font-lock-string-face))))
@@ -297,6 +298,11 @@
    ;; Highlight-indent-guides
    `(highlight-indent-guides-odd-face ((t (:background ,color-ultralight))))
    `(highlight-indent-guides-even-face ((t (:background nil))))
+
+   ;; Telega
+   `(telega-msg-heading ((t (:background nil :foreground ,color-green :inherit nil))))
+   `(telega-msg-inline-reply ((t (:foreground ,color-bad :inherit nil))))
+   `(telega-entity-type-texturl ((t (:inherit nil :foreground ,color-blue))))
    ))
 
 (provide-theme 'lab-light)
