@@ -80,12 +80,12 @@
    `(mode-line-inactive ((t (:background ,color-dell
                              :foreground ,color-fg))))
    `(fringe ((t (:background ,color-bg))))
-   `(minibuffer-prompt ((t (:slant italic :foreground ,color-bad))))
+   `(minibuffer-prompt ((t (:inherit italic :foreground ,color-bad))))
    `(font-lock-builtin-face ((t (:foreground ,color-mist))))
-   `(font-lock-comment-face ((t (:slant italic :foreground ,color-middle))))
-   `(font-lock-constant-face ((t (:slant italic :foreground ,color-bad))))
+   `(font-lock-comment-face ((t (:inherit italic :foreground ,color-middle))))
+   `(font-lock-constant-face ((t (:inherit italic :foreground ,color-bad))))
    `(font-lock-function-name-face ((t (:foreground ,color-yellow))))
-   `(font-lock-keyword-face ((t (:foreground ,color-mist :slant italic))))
+   `(font-lock-keyword-face ((t (:foreground ,color-mist :inherit italic))))
    `(font-lock-string-face ((t (:foreground ,color-cyan))))
    `(font-lock-type-face ((t (:foreground ,color-green))))
    `(font-lock-variable-name-face ((t (:foreground ,color-blue))))
@@ -137,7 +137,7 @@
    `(erc-input-face ((t (:foreground ,color-yellow))))
    `(erc-prompt-face ((t (:foreground ,color-bad
                           :background nil
-                          :slant italic
+                          :inherit italic
                           :weight unspecified))))
    `(erc-my-nick-face ((t (:foreground ,color-yellow))))
    `(erc-pal-face ((t (:foreground ,color-cyan))))
@@ -199,7 +199,7 @@
    `(sml/discharging ((t (:foreground ,color-red))))
    `(sml/read-only ((t (:foreground ,color-green))))
    `(sml/filename ((t (:foreground ,color-blue :weight normal))))
-   `(sml/prefix ((t (:foreground ,color-purple :weight normal :slant italic))))
+   `(sml/prefix ((t (:foreground ,color-purple :weight normal :inherit italic))))
    `(sml/modes ((t (:foreground ,color-fg :weight normal))))
    `(sml/modified ((t (:foreground ,color-red))))
    `(sml/outside-modified ((t (:foreground ,color-bg :background ,color-red))))
@@ -208,7 +208,7 @@
    ;; Helm
    `(helm-candidate-number ((t (:foreground ,color-fg :background nil))))
    `(helm-source-header ((t (:foreground ,color-bg :background ,color-blue
-                                         :weight normal :slant italic))))
+                                         :weight normal :inherit italic))))
    `(helm-selection ((t (:inherit region :distant-foreground nil :background nil))))
    `(helm-prefarg ((t (:foreground ,color-red))))
    `(helm-ff-directory ((t (:foreground ,color-blue))))
@@ -258,7 +258,7 @@
    `(outline-4 ((t (:foreground ,color-cyan))))
    `(outline-5 ((t (:foreground ,color-yellow))))
    `(outline-6 ((t (:foreground ,color-fg))))
-   `(outline-7 ((t (:foreground ,color-fg :slant italic))))
+   `(outline-7 ((t (:foreground ,color-fg :inherit italic))))
    `(outline-8 ((t (:foreground ,color-bad))))
 
    ;; Org-mode
